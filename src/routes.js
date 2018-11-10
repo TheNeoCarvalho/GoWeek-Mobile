@@ -1,8 +1,8 @@
-import { createStackNavigator } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation'
 
-import Login from './pages/Login';
-import Timeline from './pages/Timeline';
-import New from './pages/New';
+import Login from './pages/Login'
+import Timeline from './pages/Timeline'
+import New from './pages/New'
 
 const Routes = createStackNavigator({
     Login,
@@ -10,4 +10,4 @@ const Routes = createStackNavigator({
     New
 });
 
-export default Routes;
+export default Routes

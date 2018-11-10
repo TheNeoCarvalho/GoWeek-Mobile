@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React, { Component } from "react"
 
-import Routes from './routes';
+import Routes from './routes'
 
 class App extends Component {
     render() {
@@ -9,4 +9,4 @@ class App extends Component {
         );
     }
 }
-export default App;
+export default App
